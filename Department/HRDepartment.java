@@ -1,10 +1,11 @@
-class HRDepartment  extends SuperDepartment {
+package Department;
+public class HRDepartment extends SuperDepartment {
     public String departmentName() {
         return "HR Department";
     }
 
     public String getTodaysWork() {
-        return "Fill today’s worksheet and mark your attendance";
+        return "Fill today's timesheet and mark your attendance";
     }
 
     public String getWorkDeadline() {

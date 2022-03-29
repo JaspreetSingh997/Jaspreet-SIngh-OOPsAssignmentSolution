@@ -1,3 +1,4 @@
+package Department;
 class SuperDepartment {
     public String departmentName() {
         return "Super Department ";
@@ -12,7 +13,7 @@ class SuperDepartment {
     }
 
     public String IsTodayAHoliday() {
-        return "Today is not a holiday";
+        return "Today is not a Holiday";
     }
 
 }
